@@ -30,10 +30,3 @@ fonts and no CDN assets.
 
 GitHub Pages can publish static files from a branch and either the repository
 root or `/docs` folder. This site is prepared for `main` and `/root`.
-
-## Before App Store Submission
-
-- Replace `support@example.com` with the final support contact.
-- Review the Privacy Policy draft.
-- Add a final support URL and Privacy Policy URL to App Store Connect.
-- Optionally configure a custom domain later.
