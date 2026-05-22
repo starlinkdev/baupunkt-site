@@ -1,51 +1,123 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Baupunkt</title>
-    <meta name="description" content="Baupunkt is a local-first app for defects, construction site documentation, responsibilities and project reports.">
+    <title>Baupunkt - lokales Sanierungs-Cockpit</title>
+    <meta name="description" content="Baupunkt ist ein lokales Sanierungs-Cockpit fuer Eigentümer und kleine Projektteams: Kosten, Maengel, Entscheide, Berichte und Sicherung an einem Ort.">
+    <link rel="icon" href="data:,">
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <header class="site-header">
-      <nav class="nav" aria-label="Main navigation">
+      <nav class="nav" aria-label="Hauptnavigation">
         <a class="brand" href="index.html">Baupunkt</a>
         <div class="nav-links">
-          <a href="privacy.html">Privacy Policy</a>
+          <a href="index.html" aria-current="page">Überblick</a>
           <a href="support.html">Support</a>
+          <a href="privacy.html">Datenschutz</a>
         </div>
       </nav>
     </header>
 
     <main class="page">
       <section class="hero">
-        <p class="eyebrow">Local-first construction documentation</p>
-        <h1>Baupunkt</h1>
-        <p class="lead">Baustellen erfassen. Mängel prüfen. Berichte exportieren.</p>
-      </section>
-
-      <section class="card-grid" aria-label="Overview">
-        <article class="card">
-          <h2>What Baupunkt Does</h2>
-          <p>Baupunkt ist eine local-first App für Mängel, Baustellendokumentation, Zuständigkeiten und Projektberichte.</p>
-        </article>
-        <article class="card">
-          <h2>Local-First</h2>
-          <p>Die App speichert Projektdaten lokal auf dem Gerät. Projektdateien und Berichte werden durch Nutzer selbst exportiert.</p>
-        </article>
+        <p class="eyebrow">Local-first · Sanierung · Kontrolle</p>
+        <h1>Sanierungen klar steuern.</h1>
+        <p class="lead">Kosten, Mängel, Entscheide, Berichte und Sicherung an einem Ort.</p>
+        <p>Baupunkt ist ein lokales Sanierungs-Cockpit für Eigentümer, Bauherrschaften und kleine Projektteams. Die App hilft, Renovationsarbeit zu strukturieren, den nächsten Schritt zu erkennen und wichtige Unterlagen bewusst zu sichern.</p>
+        <div class="hero-actions">
+          <a class="button" href="support.html">Support lesen</a>
+          <a class="button secondary" href="privacy.html">Datenschutz verstehen</a>
+        </div>
       </section>
 
       <section class="notice">
-        <h2>App Store Preparation</h2>
-        <p>This website provides public support and privacy information for Baupunkt. It does not collect analytics, use cookies or load external fonts.</p>
+        <h2>Lokales Werkzeug, keine Cloud-Plattform</h2>
+        <p>Baupunkt ist auf einen lokalen, nutzerkontrollierten Arbeitsablauf ausgelegt. Projektdaten, Backups und Exporte werden bewusst durch den Nutzer verwaltet. Es gibt keine Baupunkt-Cloud-Synchronisierung und keine geteilte Server-Produktion.</p>
+      </section>
+
+      <section aria-labelledby="helps-with-title">
+        <p class="eyebrow">Was Baupunkt unterstützt</p>
+        <h2 id="helps-with-title">Praktische Sanierungsarbeit statt lose Notizen</h2>
+        <div class="feature-grid">
+          <article class="feature">
+            <span class="pill">Überblick</span>
+            <h3>Tägliches Cockpit</h3>
+            <p>Der Startbereich zeigt Status, Risiken und die nächste empfohlene Aktion, damit klar ist, was heute zuerst zählt.</p>
+          </article>
+          <article class="feature">
+            <span class="pill">Baustelle</span>
+            <h3>Mängel, Pendenzen, Abnahme</h3>
+            <p>Baustellenarbeit, offene Mängel, Aufgaben und Abnahmevorbereitung bleiben in einem strukturierten Ablauf.</p>
+          </article>
+          <article class="feature">
+            <span class="pill">Entscheide</span>
+            <h3>Offene Fragen sichtbar halten</h3>
+            <p>Bauherrenentscheide und Koordinationspunkte werden als Arbeitsschritte geführt, nicht als verstreute Nachrichten.</p>
+          </article>
+          <article class="feature">
+            <span class="pill">Finanzen</span>
+            <h3>Kosten und Budget im Blick</h3>
+            <p>Budget, Kostenpositionen und Risiken sind sichtbar, ohne die tägliche Baustellenarbeit mit Tabellen zu überladen.</p>
+          </article>
+          <article class="feature">
+            <span class="pill">Berichte</span>
+            <h3>Kommunikation vorbereiten</h3>
+            <p>Bauherrschaftsberichte, Mängelberichte und Kosten-/Budget-Exporte helfen bei Abstimmung und Dokumentation.</p>
+          </article>
+          <article class="feature">
+            <span class="pill">Sicherung</span>
+            <h3>Backup und Wiederherstellung verstehen</h3>
+            <p>Die App erklärt, ob ein Backup fehlt, was gesichert werden sollte und wie eine Wiederherstellung vorbereitet wird.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="split" aria-labelledby="whats-new-title">
+        <div>
+          <p class="eyebrow">Aktueller Stand</p>
+          <h2 id="whats-new-title">Neu in v1.9.0</h2>
+          <p>Die aktuelle Version verbessert vor allem die praktische Bedienung im Alltag: klareres Backup-/Restore-Verständnis, stärkeres Cockpit, einfacherer Projektstart, bessere Report-Auswahl und robustere Darstellung auf schmaleren Bildschirmen.</p>
+        </div>
+        <ul class="check-list">
+          <li>klarere erste Schritte für neue Projekte</li>
+          <li>deutlichere nächste Aktion im Cockpit</li>
+          <li>bessere Unterscheidung von Backup, Export und Bericht</li>
+          <li>verständlicherer Support für Berichte und Exporte</li>
+          <li>responsive Oberfläche für Desktop, Tabletbreite und Phone-Width vorbereitet</li>
+        </ul>
+      </section>
+
+      <section class="card-grid" aria-label="Datenschutz und Support">
+        <article class="card">
+          <h2>Datenschutz zuerst</h2>
+          <p>Die öffentliche Seite lädt keine externen Schriften, keine Analyse-Skripte und keine Werbe-Tracker. Die App ist local-first gedacht: Der Nutzer bleibt verantwortlich dafür, wo Backups und Exporte gespeichert oder geteilt werden.</p>
+          <a href="privacy.html">Datenschutzhinweise lesen</a>
+        </article>
+        <article class="card">
+          <h2>Hilfe für den Alltag</h2>
+          <p>Der Support erklärt Projektstart, Cockpit, Backups, Wiederherstellung, Berichte und typische Fragen ohne interne technische Abläufe.</p>
+          <a href="support.html">Support öffnen</a>
+        </article>
+      </section>
+
+      <section aria-labelledby="boundaries-title">
+        <p class="eyebrow">Bewusst konservativ</p>
+        <h2 id="boundaries-title">Was Baupunkt heute nicht verspricht</h2>
+        <ul>
+          <li>keine Baupunkt-Cloud-Synchronisierung</li>
+          <li>keine geteilte Server-Produktion für mehrere Nutzer</li>
+          <li>keine aktuell verfügbare macOS- oder iOS-App-Store-App</li>
+          <li>keine Rechts-, Steuer- oder Baufachberatung</li>
+        </ul>
       </section>
     </main>
 
     <footer class="footer">
       <div class="nav">
         <span>Baupunkt</span>
-        <span><a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a></span>
+        <span><a href="support.html">Support</a> · <a href="privacy.html">Datenschutz</a></span>
       </div>
     </footer>
   </body>

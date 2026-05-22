@@ -1,10 +1,20 @@
 # Baupunkt Site
 
-Public support and privacy pages for Baupunkt.
+Public support, privacy and product-overview pages for Baupunkt.
 
-This repository contains a small static website for App Store and TestFlight
-preparation. It uses no JavaScript, no analytics, no cookies, no external
-fonts and no CDN assets.
+This repository contains a small static website. It uses no JavaScript, no
+analytics, no cookies, no external fonts and no CDN assets.
+
+## Public Positioning
+
+Baupunkt is presented as a local-first renovation cockpit for owners and small
+project teams. Public claims must stay conservative:
+
+- no Baupunkt cloud sync claim
+- no shared multi-user service claim
+- no macOS or iOS App Store availability claim
+- no internal implementation or operations details
+- no legal, tax or construction-advice promise
 
 ## Pages
 
